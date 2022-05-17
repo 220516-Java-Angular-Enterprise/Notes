@@ -14,7 +14,7 @@ public int Easy(int a, int b){
     else
         return "Yes!";
     }
-
+/*Q3*/
     public String FinalBoss(String c){
    if(c.length()>10){
        return(c.charAt(0)+c.length()-2+c.substring(c.length()-1));
