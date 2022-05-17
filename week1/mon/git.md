@@ -39,6 +39,10 @@ but it also keeps the main branch free from questionable code.
 
 ## Main Commands For GIT
 
+### Cloning GitHub Repository
+
+- `git clone <url>`
+
 ### Pushing To GitHub Repository
 
 The git status command displays the state of the working directory and the staging area. It lets you see which changes
