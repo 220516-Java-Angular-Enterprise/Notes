@@ -7,7 +7,7 @@ public class UI {
 
         System.out.println(sol.sumOfTwoNum(10, 20));
         System.out.println(sol.evenOdd(10));
-        System.out.println(sol.abbreviation("word"));
+        System.out.println(sol.abbreviation("localization"));
 
     }
 }
