@@ -10,6 +10,8 @@ public class Assignment1 {
     }
 
     public static String abbreviate(String s) {
-        return String.format("%s%d%s", s.charAt(0), s.length() - 2, s.charAt(s.length() - 1));
+        return s.length() > 10 ?
+                String.format("%s%d%s", s.charAt(0), s.length() - 2, s.charAt(s.length() - 1)) :
+                s;
     }
 }
