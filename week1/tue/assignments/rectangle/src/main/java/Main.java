@@ -7,8 +7,6 @@ public class Main {
 
         List<Rectangle> rectangleList = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
-        AreaComparator a = new AreaComparator();
-        PerimeterComparator p = new PerimeterComparator();
         Rectangle testRectangle = new Rectangle();
 
         Random generator = new Random();
@@ -17,11 +15,16 @@ public class Main {
             String rectangleName = scanner.next();
             rectangleList.add(new Rectangle(rectangleName, generator.nextInt(500), generator.nextInt(500)));
         }
+
         for(Rectangle rectangle: rectangleList){
             System.out.println(rectangle);
         }
 
-        System.out.println(testRectangle.findAreaMax(rectangleList));
-        System.out.println(testRectangle.findPerimeterMax(rectangleList));
+        System.out.println();
+
+        System.out.println("The rectangle with the largest area is: "+
+                testRectangle.findAreaMax(rectangleList));
+        System.out.println("The rectangle with the largest perimeter is: "
+                + testRectangle.findPerimeterMax(rectangleList));
     }
 }
