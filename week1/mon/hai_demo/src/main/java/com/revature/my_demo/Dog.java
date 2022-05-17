@@ -9,6 +9,6 @@ public class Dog {
     char size;
 
     public void bark(){
-        System.out.println("Waf");
+        System.out.println("Waff");
     }
 }
