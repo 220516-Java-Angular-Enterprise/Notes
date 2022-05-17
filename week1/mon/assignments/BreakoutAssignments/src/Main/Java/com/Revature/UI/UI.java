@@ -7,7 +7,7 @@ public class UI {
          Solution sol = new Solution();
 
          System.out.println(sol.sumOfTwoNums(5, -17));
-         System.out.println(sol.isEven(-7));
-         System.out.println(sol.finalBoss("Flabbergasted"));
+         System.out.println(sol.isEven(-6));
+         System.out.println(sol.finalBoss("localization"));
     }
 }
