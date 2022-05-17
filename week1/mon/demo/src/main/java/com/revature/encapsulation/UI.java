@@ -1,4 +1,4 @@
-package com.revature.demo;
+package com.revature.encapsulation;
 
 public class UI {
     public static void main(String[] args) {

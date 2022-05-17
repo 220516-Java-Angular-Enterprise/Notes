@@ -1,4 +1,4 @@
-package com.revature.demo;
+package com.revature.encapsulation;
 
 public class Dog {
     /* attributes of class Dog */

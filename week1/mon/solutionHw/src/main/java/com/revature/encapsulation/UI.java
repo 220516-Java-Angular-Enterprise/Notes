@@ -1,5 +1,5 @@
 //requires the files in this pathso it can be used in the program
-package com.revature.demo;
+package com.revature.encapsulation;
 
 //UI file is only for calling functions
 public class UI {
@@ -15,6 +15,6 @@ public class UI {
 
         System.out.println(sol.evenOdd(3));
 
-        System.out.println(sol.abr("meganlabrecque"));
+        System.out.println(sol.abr("localization"));
     }
 }

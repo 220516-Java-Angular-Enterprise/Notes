@@ -1,4 +1,4 @@
-package com.revature.demo;
+package com.revature.encapsulation;
 
 public class Solution {
         //    problem 1: finding the sum
