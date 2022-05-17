@@ -114,3 +114,87 @@ public int getRandomNumber() {
     return (int)(Math.random() * 10) + 1; 
 }
 ```
+
+## Java Constructors
+A **constructor** in Java is a special method that is used to 
+initialize objects. The constructor is called when an object 
+of a class is created. It can be used to set initial values for 
+object attributes:
+
+```// Create a Main class
+public class Main {
+  // Create a class attribute
+  int x;  
+
+  // Create a class constructor for the Main class
+  public Main() {
+    // Set the initial value for the class attribute x
+    x = 5;  
+  }
+
+  public static void main(String[] args) {
+    // Create an object of class Main (This will call the constructor)
+    Main myObj = new Main(); 
+    
+    // Print the value of x
+    System.out.println(myObj.x); // Print the value of x
+  }
+}
+
+// Outputs 5
+
+```
+
+### Constructor Parameters
+Constructors can also take parameters, which is used to initialize attributes.
+
+The following example adds an `int y` parameter to the constructor. 
+Inside the constructor we set x to y (x=y). 
+When we call the constructor, we pass a parameter to the 
+constructor (5), which will set the value of x to 5:
+
+```public class Main {
+  int x;
+
+  public Main(int y) {
+    x = y;
+  }
+
+  public static void main(String[] args) {
+    Main myObj = new Main(5);
+    System.out.println(myObj.x);
+  }
+}
+
+// Outputs 5
+
+```
+
+## Java Packages & API
+A package in Java is used to group related classes. 
+Think of it as a folder in a file directory. We use packages 
+to avoid name conflicts, and to write a better maintainable code.
+Packages are divided into two categories:
+
+* Built-in Packages (packages from the Java API)
+* User-defined Packages (create your own packages)
+
+To use a class or a package from a library, you need to use 
+the import keyword:
+
+`import package.name.Class;   // Import a single class`
+`import package.name.*;   // Import the whole package`
+
+## Java: Printing to Console
+
+### `print()`
+`print()` method in Java is used to display a text on the console. 
+This text is passed as the parameter to this method in the 
+form of String. This method prints the text on the console 
+and the cursor remains at the end of the text at the console.
+
+### `println()`
+`println()` method in Java is also used to display a text on 
+the console. This text is passed as the parameter to this method 
+in the form of String. This method prints the text on the console 
+and the cursor remains at the start of the next line at the console.

@@ -10,6 +10,9 @@ object in Java is both a physical and logical entity.
 An object is an entity that has a state and exhibit behavior. For example, any real-life entity like a pen, a laptop, a
 mobile, a table, a chair, a car, etc. is an object.
 
+**State** tells us how the object looks or what properties it has.
+**Behavior** tells us what the object does.
+
 **So what is a Class?**
 
 We know the main component of object-oriented programming is an object. If we want to build a specific type of object,
