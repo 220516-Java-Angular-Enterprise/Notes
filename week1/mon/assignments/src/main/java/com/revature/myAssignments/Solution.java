@@ -8,9 +8,9 @@ public class Solution {
 
     public String evenOdd(int a) {
         if (a % 2 == 0 ) {
-            return "YES";
+            return "EVEN";
         } else {
-            return "NO";
+            return "ODD";
         }
     }
 
