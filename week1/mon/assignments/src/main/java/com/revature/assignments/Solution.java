@@ -17,14 +17,14 @@ public class Solution {
         if(s.length()<=10){
             return s;
         }else{
-            /* first way of doing things
+            /* first way of doing things*/
             char firstLetter = s.charAt(0);
             char lastLetter = s.charAt(s.length()-1);
             int length = s.length()-2;
-            String abbreviated = Character.toString(firstLetter)+length+Character.toString(lastLetter);*/
+            String abbreviated = firstLetter+Integer.toString(length)+lastLetter;
             //second way of doing things
             String abbreviated2 = s.substring(0,1)+(s.length()-2)+s.substring(s.length()-1);
-            return abbreviated2;
+            return abbreviated;
         }
 
     }
