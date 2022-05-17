@@ -23,7 +23,7 @@ public class Solutions {
     public String abbreviate(String c) {
         int n = c.length();
         if (n >= 10) {
-            int word_len = (c.length() - 2);
+            int word_len = (n - 2);
             String p = String.valueOf(word_len);
             char first = c.charAt(0);
             char last = c.charAt(n - 1);
