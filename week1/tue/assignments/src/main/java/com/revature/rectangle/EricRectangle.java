@@ -2,7 +2,7 @@ package com.revature.rectangle;
 
 import java.util.ArrayList;
 
-public class ericRectangle {
+public class EricRectangle {
 
     private String name;
     private int length;
@@ -39,13 +39,13 @@ public class ericRectangle {
         this.width = width;
     }
 
-    public ericRectangle(){
+    public EricRectangle(){
         this.name = "";
         this.length = 0;
         this.width = 0;
     }
 
-    public ericRectangle(String name, int length, int width){
+    public EricRectangle(String name, int length, int width){
         this.name = name;
         this.length = length;
         this.width = width;
@@ -59,21 +59,21 @@ public class ericRectangle {
         return (this.length*2) + (this.width*2);
     }
 
-    public ericRectangle findMaxArea(ArrayList<ericRectangle>  rectangles){
-        ericCompare comp = new ericCompare();
-        ericRectangle tempRect =  new ericRectangle("rect",Integer.MIN_VALUE,Integer.MIN_VALUE);
+    public EricRectangle findMaxArea(ArrayList<EricRectangle>  rectangles){
+        EricCompare comp = new EricCompare();
+        EricRectangle tempRect =  new EricRectangle("rect",Integer.MIN_VALUE,Integer.MIN_VALUE);
 
-        for(int i=0; i<rectangles.size();i++){
-            if(comp.areaIsLessThan(tempRect, rectangles.get(i))){
-                tempRect = rectangles.get(i);
+        for (EricRectangle rectangle : rectangles) {
+            if (comp.areaIsLessThan(tempRect, rectangle)) {
+                tempRect = rectangle;
             }
         }
         return tempRect;
     }
 
-    public ericRectangle findMaxPerimeter(ArrayList<ericRectangle> rectangles){
-        ericCompare comp = new ericCompare();
-        ericRectangle tempRect =  new ericRectangle("rect",Integer.MIN_VALUE,Integer.MIN_VALUE);
+    public EricRectangle findMaxPerimeter(ArrayList<EricRectangle> rectangles){
+        EricCompare comp = new EricCompare();
+        EricRectangle tempRect =  new EricRectangle("rect",Integer.MIN_VALUE,Integer.MIN_VALUE);
 
 
 
