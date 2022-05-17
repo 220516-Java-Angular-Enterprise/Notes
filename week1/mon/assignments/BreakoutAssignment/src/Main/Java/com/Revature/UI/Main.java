@@ -1,7 +1,4 @@
 //Alec Guarino
-//Jeff Sturgeon
-//Ryan Jacobo
-//Victoria Trotter
 
 package com.Revature.UI;
 
