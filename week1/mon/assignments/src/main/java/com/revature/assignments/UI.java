@@ -1,5 +1,6 @@
 package com.revature.assignments;
 
+<<<<<<< HEAD
 public  class   UI{
     public static void  main(String[] args){
 
@@ -31,3 +32,12 @@ public  class   UI{
         System.out.println(q3);
     }
 }
+=======
+public class UI {
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        System.out.println(sol.sumOfTwoNum(10, 20));
+    }
+}
+>>>>>>> 8caafc65c81753e5d6dff429783aa6629ee452f9
