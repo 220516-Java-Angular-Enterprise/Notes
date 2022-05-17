@@ -3,6 +3,7 @@
 package com.Revature.UI;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Main {
 
@@ -15,6 +16,7 @@ public class Main {
 
     public static void main (String[] args){
         //<editor-fold desc="Rectangle creation">
+        /*
         rectangles.add( new Rectangle("First", 5, 10) );
         rectangles.add( new Rectangle("Second", 65, 67) );
         rectangles.add( new Rectangle("Third", 1, 163) );
@@ -25,6 +27,13 @@ public class Main {
         rectangles.add( new Rectangle("Eigth", 94, 68) );
         rectangles.add( new Rectangle("Ninth", 45, 35) );
         rectangles.add( new Rectangle("Tenth", 34, 16) );
+        */
+
+        Random number = new Random();
+        for( int i = 1 ; i <= 10 ; i ++ ) {
+            rectangles.add( new Rectangle( Integer.toString(i), number.nextInt(), number.nextInt() ) );
+        }
+
         //</editor-fold>
 
         System.out.println("Rectangles:");
