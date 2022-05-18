@@ -1,13 +1,18 @@
 package com.revature.demo;
 
-public class Main {
+public class UI {
     public static void main(String[] args){
-        int a = 3;
-        if (a %2== 0) {
-            System.out.println("Even!");
+    Dog mydog = new Dog();
+    //mydog.setName("Toby");
+    mydog.setBreed("Shiztu");
+    mydog.setAge(2);
+    mydog.setGender('M');
+    mydog.setSize('S');
 
-        } else {
-            System.out.println("Odd!");
-        }
+
+    mydog.bark();
+    System.out.println(mydog);
+
     }
+
 }
