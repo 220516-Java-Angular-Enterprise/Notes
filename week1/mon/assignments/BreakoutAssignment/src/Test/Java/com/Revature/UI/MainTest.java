@@ -11,7 +11,4 @@ class MainTest {
 
     }
 
-    @Test
-    void findMax() {
-    }
 }
