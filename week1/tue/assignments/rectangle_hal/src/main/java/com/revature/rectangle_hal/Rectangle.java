@@ -1,12 +1,15 @@
 package com.revature.rectangle_hal;
 
+import java.util.Comparator;
+import java.util.List;
+
 public class Rectangle {
     public String name;
     public int length;
     public int width;
 
    // constructors//
-    public Rectangle(int length, int width) {
+    public Rectangle(String s, int length, int width) {
         this.name = name;
         this.length = length;
         this.width = width;
@@ -38,11 +41,33 @@ public class Rectangle {
         this.width = width;
     }
 //get area and perimeter//
-    public int getareas(){return length*width;}
+    public int getAreas(){return length*width;}
 
-    public int getperm(){return (length*2)+(width*2);}
+    public int getPerm(){return (2*(length+width));}
+
+    public Rectangle findMaxArea(List<Rectangle>rectangles, Comparator com){
+        Rectangle rectangle = new Rectangle();
+
+        for (Rectangle rec : rectangles){
+            if( com.isLessThanArea(rectangle, rec)) rectangle = rec;
+        }
+        return rectangle;
+
+    }
+
+    public Rectangle findMaxPerimeter(List<Rectangle>rectangles, Comparator com) {
+        Rectangle rectangle = new Rectangle();
+
+        for (Rectangle rec : rectangles) {
+            if (com.isLessThanPerimeter(rectangle, rec)) rectangle = rec;
+        }
+        return rectangle;
+    }
 
 
+    public String toString(){
+        return "Rectangle {"+"name =" name + " length= " + length+ " width= "+width +" area= "+ getAreas()+ " perimeter= "+ getPerm()+'}';
+    }
     }
 
 
