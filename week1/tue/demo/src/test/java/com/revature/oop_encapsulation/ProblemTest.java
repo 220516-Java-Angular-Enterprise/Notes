@@ -1,8 +1,6 @@
-package com.revature.encapsulation;
+package com.revature.oop_encapsulation;
 
 import org.junit.jupiter.api.Test;
-
-import org.junit.jupiter.api.Assertions.*;
 
 class ProblemTest {
 

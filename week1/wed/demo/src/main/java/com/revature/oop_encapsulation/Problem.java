@@ -1,4 +1,4 @@
-package com.revature.encapsulation;
+package com.revature.oop_encapsulation;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -9,6 +9,7 @@ public class Problem {
     }
 
     private Set<Character> stringToSet(String s) {
+
         Set<Character> set = new LinkedHashSet<>();
 
         for (char c : s.toCharArray()) set.add(c);
@@ -16,10 +17,10 @@ public class Problem {
         return set;
     }
 
+
     private String setToString(Set<Character> t) {
         String s = "";
         for(char c : t) s += c;
-
         return s;
     }
 }
