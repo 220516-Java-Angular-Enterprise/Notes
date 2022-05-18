@@ -26,6 +26,6 @@ class CircleTest {
 
     @Test
     void calculateCircumference() {
-        assertEquals(12.56, circle.calculateCircumference());
+        assertEquals(12.57, circle.calculateCircumference());
     }
 }

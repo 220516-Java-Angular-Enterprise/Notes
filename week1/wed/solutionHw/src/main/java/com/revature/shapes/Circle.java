@@ -27,13 +27,17 @@ public class Circle extends Shape {
     @Override
     protected double calculateArea() {
 
-        return Math.PI * Math.pow(radius, 2);
+        double area = Math.PI * Math.pow(radius, 2);
+        double roundedA = Math.round(area*100.00)/100.00;
+        return roundedA;
     }
 
     @Override
     protected double calculateCircumference() {
 
-        return 2 * Math.PI * radius;
+        double circum = 2 * Math.PI * radius;
+        double roundedC = Math.round(circum*100.00)/100.00;
+        return roundedC;
     }
 
 }
