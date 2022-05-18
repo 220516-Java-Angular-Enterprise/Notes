@@ -6,8 +6,14 @@ static Random randomInt = new Random();
 
 
     public static void main(String[] args){
-    List<Rectangle> rectangles = new LinkedList<>();
-    rectangles = createTenRect();
+        Scanner input = new Scanner(System.in);
+        List<Rectangle> rectangles = new LinkedList<>();
+        rectangles = createTenRect();  // Create 10 random rectangles and push into rectangles list
+
+    System.out.println("Hello! Enter name to see the 10 sacred rectangles: "); // Ask for user input
+    String name = input.nextLine();    // Puts user input to String name
+
+    System.out.println("Ahh yes, " + name + ". Thou may proceed...");
     System.out.println(rectangles);
     System.out.println(findMaxArea(rectangles));
     System.out.println(findMaxPerimeter(rectangles));
