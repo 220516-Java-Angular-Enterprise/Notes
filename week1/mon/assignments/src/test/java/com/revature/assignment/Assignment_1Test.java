@@ -5,20 +5,22 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Assignment_1Test {
+    Assignment_1 assignment = new Assignment_1();
 
     @Test
     void problemEasy() {
-        assertEquals(7, 2, 5);
+        assertEquals("sum = 7", assignment.problemEasy(2,5));
     }
 
     @Test
     void problemModerate() {
-        assertEquals()
-        assertEquals("NO", 7);
+        assertEquals("YES", assignment.problemModerate(2));
+        assertEquals("NO", assignment.problemModerate(7));
     }
 
     @Test
     void bossSlayer() {
-        assertEquals("l10n", "localization");
+        assertEquals("l10n", assignment.bossSlayer("localization"));
+        assertEquals("local", assignment.bossSlayer("local"));
     }
 }
