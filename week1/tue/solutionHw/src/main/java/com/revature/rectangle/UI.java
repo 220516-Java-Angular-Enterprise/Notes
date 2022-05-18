@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 public class UI {
-    public static Rec main(String[] args) {
+    public static String main(String[] args) {
 
         List<Rec> recList = new ArrayList<>();
         Random r = new Random();
@@ -19,18 +19,19 @@ public class UI {
             System.out.println("Name: " + out.getName() + " Length: " + out.getLength() + " Width: " + out.getWidth());
         }
 
-        public Rec findMaxArea() {
-            Rec rectangle = new Rec();
-            Area area = new Area();
+//        public Rec findMaxArea() {
+//            Rec rectangle = new Rec();
+//            Area area = new Area();
+//
+//            for(Rec rec : recList) {
+//                if(area.isLessThan(rectangle, rec)) rectangle = rec;
+//            }
+//            return rectangle;
+//        }
 
-            for(Rec rec : recList) {
-                if(area.isLessThan(rectangle, rec)) rectangle = rec;
-            }
-            return rectangle;
-        }
-
-        System.out.println(new Rec().findMaxArea());
-        System.out.println(new Rec().findMaxPerimeter());
+//        System.out.println(new Rec().findMaxArea());
+//        System.out.println(new Rec().findMaxPerimeter());
+    return "";
     }
 
 }
