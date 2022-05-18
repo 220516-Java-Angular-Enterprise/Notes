@@ -24,6 +24,7 @@ public class Rectangle {
                 '\n';
     }
 
+
 //    AREA & PERIMETER METHODS
 
     public int getArea(){

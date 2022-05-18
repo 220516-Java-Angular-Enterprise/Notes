@@ -14,9 +14,9 @@ static Random randomInt = new Random();
     String name = input.nextLine();    // Puts user input to String name
 
     System.out.println("Ahh yes, " + name + ". Thou may proceed...");
-    System.out.println(rectangles);
-    System.out.println(findMaxArea(rectangles));
-    System.out.println(findMaxPerimeter(rectangles));
+    System.out.println(rectangles); // Print list
+    System.out.println(findMaxArea(rectangles)); // Max Area
+    System.out.println(findMaxPerimeter(rectangles)); // Max Perim
     }
 
 
