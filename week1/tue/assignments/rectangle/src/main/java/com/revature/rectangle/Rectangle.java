@@ -57,9 +57,4 @@ public class Rectangle extends Object{
         return (2*length)+(2*width);
     }
 
-
-
-
-
-
 }
