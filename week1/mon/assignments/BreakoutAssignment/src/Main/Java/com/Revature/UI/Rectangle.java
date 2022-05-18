@@ -1,8 +1,8 @@
 package com.Revature.UI;
 
 public class Rectangle {
-    String name;
-    int length, width;
+    private String name;
+    private int length, width;
 
     public Rectangle(String name, int length, int width){
         this.name = name;
