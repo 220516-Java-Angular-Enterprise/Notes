@@ -7,7 +7,7 @@ public class UI {
     public static void main(String[] args) {
         List <Rectangle> reclist = new ArrayList<>();
 
-                                                               
+
         for (int i=0; i<=10; i++) {
             Random rand1 = new Random();
             Random rand2 = new Random();
