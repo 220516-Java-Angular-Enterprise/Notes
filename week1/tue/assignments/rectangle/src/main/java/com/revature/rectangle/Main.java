@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Rectangle> rectList = new ArrayList<>();
 
         for(int i=0; i<3; i++){
-            //instantiating new objects (10 new rectangles)
+            //instantiating new objects (3 new rectangles)
             System.out.print("Choose rectangle name: ");
             rectList.add(new Rectangle(in.nextLine(), random.nextInt(100), random.nextInt(100)));
         }
@@ -23,13 +23,17 @@ public class Main {
             System.out.println(r);
         }
 
-        //new rectangle to find the highest area
+        //new rectangle to find the max area
         Rectangle highestArea = new Rectangle();
-        //copying the the highest area object into highestArea
+        //copying the max area object into highestArea
         highestArea = highestArea.findAreaMax(rectList);
+
+        Rectangle highestPerimeter = new Rectangle();
+        highestPerimeter = highestPerimeter.findPerimeterMax(rectList);
+
         //displaying using toString()
-        System.out.println("Highest Area: " +highestArea);
-        System.out.println("Highest Perimeter: "+highestArea);
+        System.out.println("\nHighest Area: " +highestArea);
+        System.out.println("Highest Perimeter: "+highestPerimeter);
     }
 
 

@@ -10,6 +10,7 @@ public class Problem {
 
     //user will never be able to call these methods in the main
     //these are helper functions, encapsulation, user will never see this
+
     //returns a set with only unique characters
     private Set<Character> stringToSet(String s){
         Set<Character> set = new LinkedHashSet<>();
