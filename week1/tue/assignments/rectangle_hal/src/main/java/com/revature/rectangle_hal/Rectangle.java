@@ -45,15 +45,15 @@ public class Rectangle {
 
     public int getPerm(){return (2*(length+width));}
 
-    public Rectangle findMaxArea(List<Rectangle>rectangles, Comparator com){
-        Rectangle rectangle = new Rectangle();
+   // *public Rectangle findMaxArea(List<Rectangle>rectangles, Comparator com){
+        //Rectangle rectangle = new Rectangle();
 
-        for (Rectangle rec : rectangles){
-            if( com.isLessThanArea(rectangle, rec)) rectangle = rec;
-        }
-        return rectangle;
+        //for (Rectangle rec : rectangles){
+            //if( com.isLessThanAreahrectangle, rec)) rectangle = rec;
+        //}
+        //return rectangle;
 
-    }
+    //}
 
     public Rectangle findMaxPerimeter(List<Rectangle>rectangles, Comparator com) {
         Rectangle rectangle = new Rectangle();
