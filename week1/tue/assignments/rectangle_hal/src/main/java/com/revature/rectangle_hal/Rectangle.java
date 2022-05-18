@@ -6,7 +6,7 @@ public class Rectangle {
     public int width;
 
    // constructors//
-    public Rectangle(String name, int length, int width) {
+    public Rectangle(int length, int width) {
         this.name = name;
         this.length = length;
         this.width = width;
