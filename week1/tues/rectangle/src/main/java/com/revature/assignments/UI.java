@@ -7,8 +7,8 @@ public class UI {
     public static void main(String[] args) {
         List <Rectangle> reclist = new ArrayList<>();
 
-        int i=0;
-        for (i=0; i<=10; i++) {
+                                                               
+        for (int i=0; i<=10; i++) {
             Random rand1 = new Random();
             Random rand2 = new Random();
             Rectangle newRec = new Rectangle("name " +i+"", rand1.nextInt(100),rand2.nextInt(100));

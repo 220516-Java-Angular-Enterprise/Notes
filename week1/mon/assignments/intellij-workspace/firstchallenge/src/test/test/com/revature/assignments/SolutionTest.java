@@ -1,4 +1,4 @@
-package java.com.revature.assignments;
+package test.com.revature.assignments;
 
 import com.revature.assignments.Solution;
 import org.junit.jupiter.api.Test;

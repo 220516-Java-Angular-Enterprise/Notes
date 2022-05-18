@@ -48,6 +48,7 @@ public class Rectangle {
     public Rectangle findMaxArea(List<Rectangle> list, Comparator com) {
         Rectangle maxRec = new Rectangle();
 
+        // takes comparator class which allows us to use comparator
         // rec gets assigned to maxRec over the iteration
         for (Rectangle rec : list) {
             if (com.isLessThanArea(maxRec, rec)) maxRec = rec;
