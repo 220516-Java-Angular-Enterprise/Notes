@@ -24,12 +24,9 @@ public class Main {
         }
 
         //new rectangle to find the max area
-        Rectangle highestArea = new Rectangle();
-        //copying the max area object into highestArea
-        highestArea = highestArea.findAreaMax(rectList);
-
-        Rectangle highestPerimeter = new Rectangle();
-        highestPerimeter = highestPerimeter.findPerimeterMax(rectList);
+        Rectangle highestArea = new Rectangle().findAreaMax(rectList);
+        //new rectangle to find the max perimeter
+        Rectangle highestPerimeter = new Rectangle().findPerimeterMax(rectList);
 
         //displaying using toString()
         System.out.println("\nHighest Area: " +highestArea);
