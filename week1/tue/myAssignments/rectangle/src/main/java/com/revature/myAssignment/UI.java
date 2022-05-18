@@ -15,8 +15,8 @@ public class UI {
 
         // User-input rectangle sizes:
         //Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        /*
-        for (int i = 1; i < 6; i++) {
+
+        for (int i = 1; i < 3; i++) {
             Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 
             System.out.println("Rectangle " + i + " name: ");
@@ -28,8 +28,8 @@ public class UI {
 
             rectangles.add(new Rectangle(setName, setSide1, setSide2));
         }
-        */
 
+        /*
         // Hard Coded Rectangles added to the list
 
         rectangles.add( new Rectangle("First", 5, 10) );
@@ -37,7 +37,7 @@ public class UI {
         rectangles.add( new Rectangle("Third", 1, 163) );
         rectangles.add( new Rectangle("Fourth", 65, 87) );
         rectangles.add( new Rectangle("Fifth", 3, 65) );
-
+        */
 
         // Output all the rectangles as well as the area and the perimeter
         for (Rectangle a : rectangles) {
