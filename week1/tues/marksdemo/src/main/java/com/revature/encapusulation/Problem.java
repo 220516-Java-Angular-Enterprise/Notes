@@ -13,6 +13,7 @@ public class Problem {
     // encapsulation example
     // helper functions set to private
     private Set<Character> stringToSet(String s) {
+        // wrapper class used bc data structures need Objects, only 8
         Set<Character> set = new LinkedHashSet<>();
 
         for (char c : s.toCharArray()) set.add(c);
