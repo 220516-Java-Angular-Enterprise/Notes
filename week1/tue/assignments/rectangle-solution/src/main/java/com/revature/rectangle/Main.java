@@ -11,10 +11,18 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         List<Rectangle> rectangles = new ArrayList<>();
 
-       for (int i = 0; i < 5; i++) {
-           System.out.print("Enter in rectangle name: ");
-           Rectangle rect = new Rectangle(scan.nextLine(), rand.nextInt(1000), rand.nextInt(1000));
-           rectangles.add(rect);
+       int i = 0;
+       while (i < 5) {
+           try {
+               System.out.print("Enter in rectangle name: ");
+               Rectangle rect = new Rectangle(scan.nextLine(), (rand.nextInt(1000 + 1000) - 1000), (rand.nextInt(1000 + 1000) - 1000));
+               rectangles.add(rect);
+
+               i++;
+           } catch (IllegalArgumentException e) {
+               e.printStackTrace();
+               System.out.println("\n");
+           }
        }
 
        System.out.println();
