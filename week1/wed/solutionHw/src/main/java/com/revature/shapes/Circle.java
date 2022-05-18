@@ -9,11 +9,13 @@ public class Circle extends Shape {
     public Circle() {}
 
 //    creates an actual new Circle object
-    public Circle(double radius) {
+    public Circle(int x, int y, double radius) {
+        this.x = x;
+        this.y = y;
         this.radius = radius;
     }
 
-//    Getters and Setters so we can retrieve and store data values
+//    Getters and Setters so that we can retrieve and store data values
     public double getRadius() {
         return radius;
     }
