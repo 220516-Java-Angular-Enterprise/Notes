@@ -12,6 +12,18 @@ public class Cat extends Pet {
         super(age, size, breed, name);
     }
 
+    public void sound() {
+        System.out.println("Meow!");
+    }
+
+    public String sound(String s) {
+        return s;
+    }
+
+    public int sound(String s, String str) {
+        return s.length();
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
