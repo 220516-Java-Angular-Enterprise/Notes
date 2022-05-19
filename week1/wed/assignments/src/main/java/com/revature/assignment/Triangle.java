@@ -6,8 +6,6 @@ public class Triangle implements Shape{
     private double base;
 
     public Triangle(){
-        this.height = 1;
-        this.base = 1;
     }
 
     public Triangle(double height, double base) throws MeasurementException {

@@ -6,8 +6,6 @@ public class Rectangle implements Shape {
     private double width;
 
     public Rectangle(){
-        this.height = 1;
-        this.width = 1;
     }
 
     public Rectangle(double height, double width) throws MeasurementException {
