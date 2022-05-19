@@ -27,7 +27,9 @@ public class Circle extends Shape {
     @Override
     protected double calculateArea() {
 
+//        Math.pow(int, 2) allows you to square functions
         double area = Math.PI * Math.pow(radius, 2);
+//        Math.round allows you to round to the amount of decimal places you specify after the 100.
         double roundedA = Math.round(area*100.00)/100.00;
         return roundedA;
     }
