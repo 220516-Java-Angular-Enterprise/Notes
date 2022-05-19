@@ -7,12 +7,12 @@ public class Triangle extends Shape{
     // Abstract Methods
     @Override
     double calculateArea() {
-        return height*base*0.5;
+        return round(height*base*0.5,2);
     }
 
     @Override
     double calculateCircumference() {
-        return base*3;
+        return round(base*3,2);
     }
 
     // Getters & Setters

@@ -8,12 +8,12 @@ public class Rectangle extends Shape{
     // Abstract Methods
     @Override
     double calculateArea() {
-        return length*width;
+        return round(length*width,2);
     }
 
     @Override
     double calculateCircumference() {
-        return 0;
+        return round(2*(length+width), 2);
     }
 
     // Getter & Setter

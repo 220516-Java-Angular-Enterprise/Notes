@@ -6,12 +6,12 @@ public class Circle extends Shape{
     // Abstracts Methods
     @Override
     double calculateArea() {
-        return 3.14*Math.pow(radius, 2);
+        return round(3.14*Math.pow(radius, 2), 2);
     }
 
     @Override
     double calculateCircumference() {
-        return 3.14*2*radius;
+        return round(3.14*2*radius, 2);
     }
 
     // Getters & Setters
@@ -34,4 +34,7 @@ public class Circle extends Shape{
         super(x, y);
         this.radius = radius;
     }
+
+    // Rounder
+
 }

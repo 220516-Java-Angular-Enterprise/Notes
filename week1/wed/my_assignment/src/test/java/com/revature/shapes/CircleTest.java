@@ -13,30 +13,21 @@ class CircleTest {
 
     @Test
     void calculateArea() {
-        assertEquals(77.28 ,A.calculateArea());
-        assertEquals(-77.28, B.calculateArea());
+        assertEquals(475.05, A.calculateArea());
+        assertEquals(475.05, B.calculateArea());
         assertEquals(0, C.calculateArea());
-        assertEquals(753.98, D.calculateArea());
-        assertEquals(0.56, E.calculateArea());
+        assertEquals(45216.0, D.calculateArea());
+        assertEquals(0.03, E.calculateArea());
     }
 
     @Test
     void calculateCircumference() {
-        assertEquals(475.29 ,A.calculateCircumference());
-        assertEquals(475.29 ,B.calculateCircumference());
-        assertEquals(475.29 ,C.calculateCircumference());
-        assertEquals(475.29 ,D.calculateCircumference());
-        assertEquals(475.29 ,E.calculateCircumference());
+        assertEquals(77.24, A.calculateCircumference());
+        assertEquals(-77.24, B.calculateCircumference());
+        assertEquals(0, C.calculateCircumference());
+        assertEquals(753.6, D.calculateCircumference());
+        assertEquals(0.56, E.calculateCircumference());
     }
+}
 
-
-    @Test
-    void getRadius() {
-        assertEquals(12.3 ,A.getRadius());
-        assertEquals(-12.3 ,B.getRadius());
-        assertEquals(0 ,C.getRadius());
-        assertEquals(120 ,D.getRadius());
-        assertEquals(0.89 , E.getRadius());
-    }
-    }
 

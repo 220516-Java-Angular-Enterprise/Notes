@@ -16,7 +16,7 @@ class RectangleTest {
         assertEquals(743.82 ,A.calculateArea());
         assertEquals(0, B.calculateArea());
         assertEquals(0, C.calculateArea());
-        assertEquals(-753.82, D.calculateArea());
+        assertEquals(-743.82, D.calculateArea());
         assertEquals(743.82, E.calculateArea());
     }
 
@@ -26,26 +26,9 @@ class RectangleTest {
         assertEquals(64.4 ,B.calculateCircumference());
         assertEquals(46.2 ,C.calculateCircumference());
         assertEquals(18.2 ,D.calculateCircumference());
-        assertEquals(-64.4 ,E.calculateCircumference());
+        assertEquals(-110.6 ,E.calculateCircumference());
     }
 
-    @Test
-    void getLength() {
-        assertEquals(23.1 ,A.getLength());
-        assertEquals(0 ,B.getLength());
-        assertEquals(23.1 ,C.getLength());
-        assertEquals(-23.1 ,D.getLength());
-        assertEquals(-23.1 ,E.getLength());
-    }
-
-    @Test
-    void getWidth() {
-        assertEquals(32.2 ,A.getWidth());
-        assertEquals(32.2 ,B.getWidth());
-        assertEquals(0 ,C.getWidth());
-        assertEquals(32.2 ,D.getWidth());
-        assertEquals(-32.2 , E.getWidth());
-    }
 
 
 }
