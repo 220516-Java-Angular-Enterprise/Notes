@@ -1,7 +1,7 @@
-package com.revature.shapeInheritance.util;
+package com.revature.assignment3.util;
 
 public class TestHelpers {
-    public static int getPrecision(String a, String b, int precTarget) {
+    public static int equalsWithPrecision(String a, String b, int precTarget) {
         int start = a.indexOf('.');
         if(start != b.indexOf('.')) return 0;
         // If the whole numbers aren't even the same

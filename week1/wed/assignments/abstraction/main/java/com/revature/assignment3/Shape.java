@@ -1,4 +1,4 @@
-package com.revature.shapeInheritance;
+package com.revature.assignment3;
 
 public abstract class Shape {
     public abstract double calculateArea();

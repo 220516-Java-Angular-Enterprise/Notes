@@ -1,4 +1,4 @@
-package com.revature.shapeInheritance;
+package com.revature.assignment3;
 
 public class Rectangle extends Shape {
     private double mHeight;

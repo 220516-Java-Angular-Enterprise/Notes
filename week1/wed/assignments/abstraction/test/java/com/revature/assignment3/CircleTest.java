@@ -1,29 +1,29 @@
-package com.revature.shapeInheritance;
+package com.revature.assignment3;
 
-import com.revature.shapeInheritance.util.TestHelpers;
+import com.revature.assignment3.util.TestHelpers;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
 class CircleTest {
-    static String fail = "Test failed at circle ";
-    static double[] radii = {
+    private final String fail = "Test failed at circle ";
+    private double[] radii = {
             0.0, 8.0, -2.5, 0.00390625, 0.003, 0.125, 0.1, 41.0859375, 41.1
     };
-    static double[] testRadii = {
+    private double[] testRadii = {
             0.0, 8, 2.5, 0.00390625, 0.003, 0.125, 0.1, 41.0859375, 41.1
     };
-    static double[] testArea = {
+    private double[] testArea = {
             0.000, 201.0619, 19.635, 4.794e-5, 2.827e-5, 0.0491, 0.0314, 5303.179,5306.809
     };
 
-    static double[] testCircum = {
+    private double[] testCircum = {
             0.000, 50.265, 15.708, 0.0245, 0.0188, 0.785, 0.628, 258.151, 258.239
     };
-    static Circle[] circles = new Circle[radii.length];
+    private Circle[] circles = new Circle[radii.length];
 
-    CircleTest() {
+    private CircleTest() {
         Arrays.setAll(circles, i -> new Circle(radii[i]));
     }
 
@@ -57,7 +57,7 @@ class CircleTest {
         while (i < circles.length) {
             try {
                 Assertions.assertFalse(
-                        TestHelpers.getPrecision(
+                        TestHelpers.equalsWithPrecision(
                                 String.valueOf(circles[i].calculateArea()),
                                 String.valueOf(testArea[i]), 2) < 2);
             }
@@ -74,7 +74,7 @@ class CircleTest {
         while (i < circles.length) {
             try {
                 Assertions.assertFalse(
-                        TestHelpers.getPrecision(
+                        TestHelpers.equalsWithPrecision(
                                 String.valueOf(circles[i].calculateCircumference()),
                                 String.valueOf(testCircum[i]), 2) < 2);
             }
