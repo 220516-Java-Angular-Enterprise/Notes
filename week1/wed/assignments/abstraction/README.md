@@ -79,34 +79,6 @@ In the Test Class, you can now test the code written in this class. Make sure to
 returning correctly. Also, make sure the area and circumference are being returned correctly. For area and
 circumference, you may assume the results will have 2 decimal points of precision.
 
-Part 3 Triangle Class
-
-For this part you will be writing the Triangle class. As in the previous class, the Triangle Class has a constructor,
-accessors and mutators and abstract methods defined. Triangle Class: Constructor, Triangle(double height, double base)
-
-The constructor for the Triangle Class will take two doubles, one for base and one for height. These values should be
-stored in instance variables. Triangle Class: Accessors and Mutators, getHeight() getBase() setHeight(double height)
-setBase(double base)
-
-Like in the Rectangle class, there are now two instance variables, one for height and another for base. Both of these
-instance variables need to have accessors and mutators. The accessors should return the respective value of an instance
-variable. The mutators will take a double to change a respective instance variable. Triangle Class: Abstract Methods,
-calculateArea() and calculateCircumference()
-
-As seen previously in all the other subclasses, the Triangle class also extends the Shape class. This means that the
-abstract methods in the Shape class have to be defined in the Triangle class.
-
-The Triangle class will be limited to performing calculations for equilateral triangles, where all sides are the same
-length. This should make calculations for area and perimeter relatively simple.
-
-The methods that must be implemented are calculateArea() and calculateCircumference(). For calculateArea(), return the
-area of a triangle, which as a reminder is (base*height)/2. As before with the Rectangle Class, there is not a
-circumference for a triangle. Therefore, for this method return the perimeter of a triangle. As you have the base of the
-triangle, and because this class is limited to just equilateral triangles, you should be able to easily calculate the
-perimeter of the triangle.. Testing Triangle Class
-
-In the Test Class, you can now test the code written in this class. Make sure to see if the accessors and mutators are
-returning correctly. Also, make sure the area and circumference are being returned correctly.
 
 # Part 3 Triangle Class
 
