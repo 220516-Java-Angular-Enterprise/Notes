@@ -1,7 +1,7 @@
 package com.revature.abstraction;
 
 public class Rectangle extends Shape{
-    double height;
+    private double height;
     double width;
 
     Rectangle(double width, double height){

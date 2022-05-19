@@ -1,8 +1,8 @@
 package com.revature.abstraction;
 
 public class Triangle extends Shape{
-    double height;
-    double base;
+    private double height;
+    private double base;
 
     Triangle(double height, double base){
         this.height = height;
