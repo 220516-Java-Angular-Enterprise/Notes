@@ -17,13 +17,5 @@ public abstract class Rectangles extends Shape_hw {
     private double setHeight(double height){return height;}
     private double setWidth(double width){return width;}
 
-    @Override
-    protected double calculateArea(double height, double width) {
-        return height*width;
-    }
 
-    @Override
-    protected double calculateCircumference(double height, double width) {
-        return 2*(height+width);
-    }
 }

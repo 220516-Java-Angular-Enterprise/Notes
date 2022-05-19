@@ -2,17 +2,6 @@ package com.revature.hal_abs;
 
 public abstract class Triangle extends Shape_hw{
     //* abstract *//
-    @Override
-    protected double calculateArea(int x, int y) {
-        return x*y;
-    }
-
-    @Override
-    protected double calculateCircumference(double z) {
-        return z*3;
-    }
-
-    //* constructors *//
     private double height;
     private double base;
 
@@ -24,5 +13,13 @@ public abstract class Triangle extends Shape_hw{
     private void setHeight(double height){}
 
 
+    @Override
+    protected double calculateArea() {
+        return 0;
+    }
 
+    @Override
+    protected double calculateCircumference() {
+        return 0;
+    }
 }

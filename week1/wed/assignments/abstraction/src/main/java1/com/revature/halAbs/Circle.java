@@ -1,27 +1,30 @@
-package com.revature.hal_abs;
+package week1.wed.assignments.abstraction.src.main.java1.com.revature.halAbs;
 
-public abstract class Circle extends Shape_hw {
+public class Circle extends Shape{
     //* Circle Class: Constructor, Circle(double radius) *//
     //* The Circle class constructor will take in a double that represents a radius of a circle.
     // This value should be stored in an instance variable that is private,
     // since we will use mutators and accessors to manipulate and obtain the value of it. *//
     private double radius;
-
-    private Circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     //* Accessors and Mutators, getRadius() setRadius(double radius) *//
-    private double getRadius(double radius) {
-        return radius;
+    public double getRadius(){return radius;}
+
+    public void setRadius(double radius){
+        this.radius = radius;
     }
 
-    private double setRadius(double radius) {
-        return radius;
+
+    @Override
+    protected double calculateArea() {
+        return Math.PI * Math.pow(radius, 2);
+    }
+
+    @Override
+    protected double calculateCircumference() {
+        return 2*Math.PI*radius;
     }
 }
-
-
-
-
-
