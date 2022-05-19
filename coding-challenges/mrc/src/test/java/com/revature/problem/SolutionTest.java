@@ -15,5 +15,6 @@ class SolutionTest {
         assertEquals(0, sol.mostRecurringInteger(""));
         assertEquals(1, sol.mostRecurringInteger("1"));
         assertEquals(7, sol.mostRecurringInteger("11999991188881122222211777777711"));
+        assertEquals(4, sol.mostRecurringInteger("11111122234444444444111122233111132"));
     }
 }
