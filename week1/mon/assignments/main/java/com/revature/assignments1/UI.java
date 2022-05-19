@@ -3,11 +3,11 @@ package com.revature.assignments1;
 public class UI {
     public static void main(String[] args) {
 
-        solution addNum1 = new solution();
-        solution oE = new solution();
-        solution size = new solution();
+        Solution addNum1 = new Solution();
+        Solution oE = new Solution();
+        Solution size = new Solution();
 
-        System.out.println("Sum = " + addNum1.Add(10, 4));
+        System.out.println("Sum = " + addNum1.add(20, 4));
 
         System.out.println(oE.oddEven(3));
 

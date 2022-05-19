@@ -1,16 +1,16 @@
 package com.revature.assignments1;
 
-public class solution {
-    public int Add(int a, int b) {
+public class Solution {
+    public int add(int a, int b) {
         int c = a + b;
         return c;
     }
 
     public String oddEven(int a) {
         if (a % 2 != 0) {
-            return "No";
+            return "Odd";
         } else {
-            return "Yes";
+            return "Even";
         }
     }
 
