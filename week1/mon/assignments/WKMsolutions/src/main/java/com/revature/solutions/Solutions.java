@@ -5,20 +5,17 @@ public class Solutions {
     private int b;
     private int sum;
 
-    public int getSum(){
-        return this.sum;
+
+
+    public int getSum(int a, int b){
+        return a+b;
     }
 
-    public Solutions (int a, int b){
-        this.a = a;
-        this.b = b;
-        this.sum=a+b;
-    }
-    public String isEven(){
-        if (this.a%2==0) {
-            return "a is EVEN";
+    public String isEven(int a){
+        if (a%2==0) {
+            return "EVEN";
         } else{
-            return "a is ODD";
+            return "ODD";
         }
     }
     public String truncate(String s) {
