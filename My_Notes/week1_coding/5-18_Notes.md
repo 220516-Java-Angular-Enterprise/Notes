@@ -11,6 +11,9 @@ Catch.. is catching any exception in your code.
 Every class we make is a subclass of object.
 You want to use the try-catch block to handle the exception. 
 finally blocks will execute regardless if exception was thrown.
+# what goes in the try block?
+Something that will make an exception in your code. 
+
 
 # Mult-try catch block.
 After trys catch the first exception it goes straight to the exception. 
