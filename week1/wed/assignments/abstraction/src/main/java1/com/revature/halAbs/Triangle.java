@@ -15,12 +15,12 @@ public class Triangle extends Shape{
     public void setHeight(double height){this.height= height;}
 
     @Override
-    protected double calculateArea() {
+    public double calculateArea() {
         return base*height*0.5;
     }
 
     @Override
-    protected double calculateCircumference() {
+    public double calculateCircumference() {
         return base*3;
     }
 }

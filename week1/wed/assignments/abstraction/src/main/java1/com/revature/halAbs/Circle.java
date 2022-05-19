@@ -19,12 +19,12 @@ public class Circle extends Shape{
 
 
     @Override
-    protected double calculateArea() {
+    public double calculateArea() {
         return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
-    protected double calculateCircumference() {
+    public double calculateCircumference() {
         return 2*Math.PI*radius;
     }
 }

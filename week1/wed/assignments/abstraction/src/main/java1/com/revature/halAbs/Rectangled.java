@@ -3,7 +3,7 @@ package week1.wed.assignments.abstraction.src.main.java1.com.revature.halAbs;
 public class Rectangled extends Shape{
     private double height;
     private double width;
-    //* constructors *//
+
     public Rectangled(double height, double width) {
         this.height = height;
         this.width = width;
@@ -19,12 +19,12 @@ public class Rectangled extends Shape{
 
 
     @Override
-    protected double calculateArea() {
+    public double calculateArea() {
         return height*width;
     }
 
     @Override
-    protected double calculateCircumference() {
+    public double calculateCircumference() {
         return 2*(height*width);
     }
 }

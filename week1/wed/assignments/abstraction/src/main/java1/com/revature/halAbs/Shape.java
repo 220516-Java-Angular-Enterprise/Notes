@@ -4,8 +4,8 @@ public abstract class Shape {
     protected int x;
     protected int y;
     //* abstract methods *//
-    protected abstract double calculateArea();
+    public abstract double calculateArea();
 //* will return area*//
-    protected abstract double calculateCircumference();
+    public abstract double calculateCircumference();
 //* will return circumference/perimeter*//
 }
