@@ -3,7 +3,7 @@ package com.revature.abstraction;
 public class Circle extends Shape {
     private double radius;
     private double pi = 3.1459;
-   public Circle(double r){
+    public Circle(double r){
         this.radius = r;
     }
     @Override
@@ -14,16 +14,16 @@ public class Circle extends Shape {
 
     @Override
     protected double calculateCircumference() {
-       double circum = (2*pi*radius);
+        double circum = (2*pi*radius);
         return Math.round(circum*100.0)/100.0;
     }
 
     public double getRadius() {
-       return radius;
+        return radius;
     }
 
     public void setRadius(double r) {
-       this.radius = r;
+        this.radius = r;
     }
     @Override
     public String toString() {
