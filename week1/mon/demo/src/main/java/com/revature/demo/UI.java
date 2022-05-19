@@ -7,6 +7,6 @@ public class UI {
 
         mydog.setName("Jon");
 
-        System.out.println(mydog.getName());
+        System.out.println(mydog);
     }
 }
