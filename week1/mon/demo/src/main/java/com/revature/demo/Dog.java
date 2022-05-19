@@ -60,8 +60,9 @@ public class Dog {
         this.size = size;
     }
 
-    public void bark() {
+    public boolean bark() {
         System.out.println("Woof!");
+        return false;
     }
 
     @Override

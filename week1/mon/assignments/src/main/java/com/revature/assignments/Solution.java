@@ -4,16 +4,20 @@ public class Solution {
 
     public int sumOfTwoNum(int a, int b) {
 
-        return 0;
+        return a + b;
     }
 
     public String evenOdd(int a) {
-
-        return "";
+        if(a % 2 == 0) {
+            return "even";
+        } else return "odd";
     }
 
     public String abbreviation(String s) {
-
-        return "";
+        if(s.length() >  10){
+            return s.charAt(0) + String.valueOf(s.length() -2) + s.charAt(s.length() -1 );
+        }
+        return s;
     }
+
 }

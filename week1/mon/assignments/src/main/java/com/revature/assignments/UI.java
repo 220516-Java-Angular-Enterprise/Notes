@@ -5,5 +5,6 @@ public class UI {
         Solution sol = new Solution();
 
         System.out.println(sol.sumOfTwoNum(10, 20));
+        System.out.println(sol.abbreviation("localization"));
     }
 }
