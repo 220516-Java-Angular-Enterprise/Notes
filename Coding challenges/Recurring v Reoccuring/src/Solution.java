@@ -1,12 +1,13 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 public class Solution {
 
     public int mostRecurringInteger(String s) {
-        ArrayList<Integer> list = new ArrayList<>();
-        ArrayList<Integer> maxNum = new ArrayList<>();
+
+        PriorityQueue<Integer> list = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> maxNum = new PriorityQueue<>();
+
+
         int i = 0;
 
         int k = 9;
@@ -21,29 +22,49 @@ public class Solution {
             if (regex == parse) {
                 list.add(parse);
 
+
             } else {
                 regex = Integer.valueOf(i);
 
             }
 
         }
+
+
+
         //seperate for loops
         for(int j = 0; j < list.size();j++) {
-            if (list.contains(k)) {
-                maxNum.add(k);
-
+            //list.iterator()
+            if(maxNum.size() > 1){
                 break;
+            }
+
+            else if(list.contains(k)) {
+                maxNum.add(k);
+                list.remove();
+
+
+
+
+
+                //break;
             } else if(!list.contains(k)){
-               j--;
+                j--;
+                k--;
+
+            }
+            else if(maxNum.size() < 2){
+                maxNum.clear();
                 k--;
 
             }
         }
 
+        return maxNum.peek();
 
 
-    return maxNum.get(0);
-        }
+
+    }
     }
 
 
