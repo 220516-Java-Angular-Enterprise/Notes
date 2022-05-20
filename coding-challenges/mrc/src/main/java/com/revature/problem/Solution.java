@@ -5,34 +5,48 @@ public class Solution {
     public int mostRecurringInteger(String s) {
         // s.toCharArray() returns an array of the string and then i save it to the list variable
         int globalMax = 0;
-        int localMax = 1;
+        int localMax = 0;
+        int l = s.length();
+
 
         // if s is "" this this if will be executed
-        if(s.length() == 0){
+        if(l == 0){
             return 0;
         }
-
-        // if s is length 1 for example ("2") or 2  ("27") the first element will aways be the anwser
-        if (s.length() == 1 || s.length() == 2){
-            return Character.getNumericValue(s.charAt(0));
-        }
-
         // iterate through string list. have a counter of local max if the element look at  and the element ahead
         // of it are the same then count the element. check with each iteration if the local max is bigger than
         // the global max if so then we know  the element we are look at so far is the most reoccuring
         int aws = Character.getNumericValue(s.charAt(0));
-        for (int i=0;i< s.length()-1; i++){
-            if(s.charAt(i) == s.charAt(i+1)){
-                localMax += 1;
-                if (localMax > globalMax){
-                    globalMax = localMax;
-                    aws = Character.getNumericValue(s.charAt(i));
+        int  prev = Character.getNumericValue(s.charAt(0));
+        for (int i=0;i< l; i++){
+            try {
+                correctInput(s.charAt(i));
+                Character.getNumericValue(s.charAt(0));
+                if  (Character.getNumericValue(s.charAt(i)) == prev){
+                    localMax ++;
+                    if (localMax > globalMax){
+                        globalMax = localMax;
+                        aws = Character.getNumericValue(s.charAt(i));
+                        if (globalMax > l-i) {
+                            return aws;
+                        }
+                    }
+
+                }else{
+                    localMax = 1;
                 }
-            }else{
-                localMax = 1;
+                prev = Character.getNumericValue(s.charAt(i));
+            } catch (InputException e){
+                return -1;
             }
         }
         return aws;
 
     }
+    public boolean correctInput(char c){
+        if (Character.getNumericValue(c) >= 10 || Character.getNumericValue(c) == -1){
+            throw new InputException("Invalid String");
+        } else{return true;}
+    }
+
 }
