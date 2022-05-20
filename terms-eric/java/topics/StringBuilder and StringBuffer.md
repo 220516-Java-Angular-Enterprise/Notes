@@ -1,0 +1,7 @@
+StringBuffer and StringBuilder classes are mutable.
+
+| No. | StringBuffer                                                                                                                 | StringBuilder                                                                                                                        |
+| --- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1)  | StringBuffer is _synchronized_ i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously. | StringBuilder is _non-synchronized_ i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously. |
+| 2)  | StringBuffer is _less efficient_ than StringBuilder.                                                                         | StringBuilder is _more efficient_ than StringBuffer.                                                                                 |
+| 3)  | StringBuffer was introduced in Java 1.0                                                                                      | StringBuilder was introduced in Java 1.5                                                                                             |

@@ -1,0 +1,1 @@
+Special method that is used to initialize an object

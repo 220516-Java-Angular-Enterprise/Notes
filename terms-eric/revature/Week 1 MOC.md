@@ -1,0 +1,125 @@
+tags:
+links:
+
+---
+
+# Week 1 MOC
+
+- Unix/Linux: Fundamentals 
+- Unix/Linux: File Commands 
+- [[Git]]: Fundamentals 
+- [[Git]]: Initializing a repository 
+- [[OOP]]: [[Classes and Objects]] 
+- [[OOP]]: [[Encapsulation]]
+- [[OOP]]: [[States and Behaviors]]
+- [[Java]]: Introduction to Java 
+- [[Java]]: [[JDK]], [[JRE]], [[JVM]] 
+- [[Java]]: Classes vs Objects 
+- [[Java]]: [[Class Members]] 
+- [[Java]]: [[Methods and Parameters]] 
+- [[Java]]: [[Constructors]] 
+- [[Java]]: Packages and Imports 
+- [[Java]]: [[Primitive Data Types]]
+- [[Java]]: [[Wrapper Classes]] 
+- [[Java]]: Character sequence 
+- [[Java]] : Printing to the console 
+- [[Java]]: Literal values 
+- [[Java]]: Constant primitive values 
+- [[Java]]: Operators 
+- [[Java]]: Control Flow Statements
+- Unix/Linux: Moving and Deleting Files
+- [[Git]]: Basic Snapshotting
+- [[Java]]: [[Compilation Process]]
+- [[Java]]: Reference Types
+- [[Java]]: Member Visibility and Access
+- [[Java]]: [[Access Modifiers]]
+-  [[Java]]: Non-access modifying keywords
+-  [[Java]]: [[Object instantiation]]
+-  [[Java]]: Variable Scopes
+-  [[Java]]: [[String API]]
+-  [[Java]]: [[StringBuilder and StringBuffer]]
+-  [[DS&A]]: Data Structure Basics
+-  [[DS&A]]: Algorithm Basics
+-  [[DS&A]]: Arrays
+-  [[DS&A]]: Array Indexing Strategies
+-  [[DS&A]]: Multidimensional Arrays
+-   [[Java]]: Arrays
+-   [[Java]]: Variable Arguments
+-   [[Testing]]: Definition of "Test"
+-   [[Testing]]: Software Quality
+-   [[Testing]]: [[Testing Levels]]
+-   [[Debugging]]: [[Breadcrumb statements]]
+-   [[OOP]]: [[Design Pattern Basics]]
+-   [[Java]]: [[POJO Design Pattern]]
+- Git: Repository Hosting Platforms 
+- Git: Working with remote repositories 
+- Git: Viewing changes 
+- Git: Pushing to a remote repository 
+- Tooling: Integrated Development Environments 
+- OOP: Class-based inheritance 
+- Java: [[The Object class ]]
+- Java: [[Errors vs Exceptions]] 
+- Java: [[Throwable Class Hierarchy]] 
+- Java: [[Class Inheritance]] 
+- Java: [[Checked vs Unchecked Exceptions]] 
+- Java: [[Handling Exceptions]] 
+- [[Java: Exception Propagation]] 
+- Java: [[Reading a Stack Trace]] 
+- Java: [[Creating custom exceptions]] 
+- OOP: [[Control Abstraction]] 
+- OOP: [[Data Abstraction]] 
+- Java: Reading from the console 
+- Java: [[Reading from a file]] 
+- Java: [[Writing to a file]] 
+- DS&A: [[Linked Lists ]]
+- DS&A: [[Time Complexity]] 
+- DS&A: [[Space Complexity]] 
+- DS&A: [[Asymptotic Notations]] 
+- DS&A: [[Brute force implementations ]]
+- SDLC: [[Sprints]] 
+- SDLC: [[Daily Scrum]]
+- Git: [[Branching Basics]] 
+- OOP: [[Polymorphism]]
+- OOP: [[Composition]] 
+- OOP: Multiple Inheritance 
+- DS&A: Array Lists 
+- DS&A: [[Amortized Analysis]] 
+- Debugging: Paired Programming 
+- Java: Abstract Classes and Methods 
+- Java: [[Shadowing]] 
+- Java: [[Interfaces]] 
+- Java: [[Method Overloading]] 
+- Java: [[Method Overriding]] 
+- Java: [[Type Coercion]] 
+- Java: [[Widening and Narrowing]] 
+- Java: Covariant Reference Types 
+- Java: [[Nested Types]] 
+- Java: Local Anonymous Classes 
+- Testing: Writing custom unit tests 
+- Testing: [[Creating stubs]] 
+- DS&A: [[Recursive algorithms]]
+- OOP: [[DRY Principle]] 
+- OOP: [[Single Responsibility Principle]] 
+- OOP: [[Open/Closed Principle]] 
+- OOP: [[Liskov Substitution Principle]] 
+- OOP:[[Interface Segregation Principle]] 
+- OOP: [[Dependency Inversion Principle]] 
+- SDLC: Retrospectives 
+- Java: [[Generics]] 
+- Java: [[Generics and Subtyping]] 
+- Java: [[Generic Wildcards]] 
+- Java: Generic Methods 
+- Java: [[Annotations]]
+- Java: Creating custom annotations 
+- DS&A: [[Stacks]] 
+- Java: [[Stack and Heap Memory]] 
+- Java: [[Pass-By-Value]] 
+- Java: [[Class Loading]] 
+- Java: [[Static Members]] 
+- Java: [[Garbage Collection]] 
+- [[JUnit]]: Introduction to JUnit 
+- JUnit: Annotations 
+- JUnit: Assertions 
+- Testing: [[Mocking]] 
+- Testing: [[Mocks vs Stubs]] 
+- Testing: [[Mockito]]

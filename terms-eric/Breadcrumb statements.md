@@ -1,0 +1,3 @@
+[Breadcrumbs are a trail of events](https://sentry.io/features/breadcrumbs/) that occurred in your application leading up to the primary error. They can be as simple as generic logging messages, or they can contain rich metadata about the state of your application: network requests, database queries, UI events, navigation changes, or even earlier occurring errors.
+
+A **Breadcrumb** is very much like a log event, but it's stored and reported along side an error. Like a log, a Breadcrumb contains a message, but it can also hold metadata (in the form of a hashmap). A set of breadcrumbs are collected throughout the life of a request (or job invocation), and are immediately dropped unless an error is reported.
