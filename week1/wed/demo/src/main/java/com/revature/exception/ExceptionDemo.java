@@ -21,7 +21,7 @@ public class ExceptionDemo {
 
         /* We can catch multiple exceptions using multi try-catch blocks */
         try {
-            num = Integer.parseInt("123"); // NumberFormatException
+            num = Integer.parseInt("asdf"); // NumberFormatException
             System.out.println(arr[5]); // ArrayIndexOutOfBoundException
         } catch (NumberFormatException e) {
             System.out.println("NumberFormatException was thrown.");
