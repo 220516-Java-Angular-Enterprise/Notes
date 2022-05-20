@@ -1,4 +1,4 @@
-package com.revature.problem;
+package com.revature.WKMproblem;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,5 +15,9 @@ class SolutionTest {
         assertEquals(0, sol.mostRecurringInteger(""));
         assertEquals(1, sol.mostRecurringInteger("1"));
         assertEquals(7, sol.mostRecurringInteger("11999991188881122222211777777711"));
+    }
+
+    @Test
+    void testMostRecurringInteger() {
     }
 }
