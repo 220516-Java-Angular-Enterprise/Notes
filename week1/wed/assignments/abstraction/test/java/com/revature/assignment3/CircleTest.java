@@ -18,7 +18,7 @@ class CircleTest {
             0.000, 201.0619, 19.635, 4.794e-5, 2.827e-5, 0.0491, 0.0314, 5303.179,5306.809
     };
 
-    private double[] testCircum = {
+    private double[] testCirc = {
             0.000, 50.265, 15.708, 0.0245, 0.0188, 0.785, 0.628, 258.151, 258.239
     };
     private Circle[] circles = new Circle[radii.length];
@@ -76,7 +76,7 @@ class CircleTest {
                 Assertions.assertFalse(
                         TestHelpers.equalsWithPrecision(
                                 String.valueOf(circles[i].calculateCircumference()),
-                                String.valueOf(testCircum[i]), 2) < 2);
+                                String.valueOf(testCirc[i]), 2) < 2);
             }
             catch (AssertionError a) {
                 System.out.println("Circumference "+fail+i);

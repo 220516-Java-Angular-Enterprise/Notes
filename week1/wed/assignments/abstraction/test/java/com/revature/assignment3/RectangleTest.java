@@ -23,6 +23,9 @@ class RectangleTest {
     private double[] testArea = {
             0.000, 8.000, 245.03, 0.000, 0.000, 863.1
     };
+    private double[] testCirc = {
+            0.000, 18.000, 201.024, 0.00781, 0.00264, 124.2
+    };
     private Rectangle[] rectangles = new Rectangle[heights.length];
 
     RectangleTest() {
@@ -81,7 +84,7 @@ class RectangleTest {
                 Assertions.assertFalse(
                         TestHelpers.equalsWithPrecision(
                                 String.valueOf(rectangles[i].calculateArea()),
-                                String.valueOf(testArea), 2) < 2);
+                                String.valueOf(testArea[i]), 2) < 2);
             }
             catch (AssertionError a) {
                 System.out.println("Area "+fail+i);
@@ -91,5 +94,16 @@ class RectangleTest {
 
     @Test
     void calculateCircumference() {
+        for (int i = 0; i < rectangles.length; i++) {
+            try {
+                Assertions.assertFalse(
+                        TestHelpers.equalsWithPrecision(
+                                String.valueOf(rectangles[i].calculateCircumference()),
+                                String.valueOf(testCirc[i]), 2) < 2);
+            }
+            catch (AssertionError a) {
+                System.out.println("Circumference "+fail+i);
+            }
+        }
     }
 }
