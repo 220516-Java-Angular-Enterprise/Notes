@@ -5,7 +5,7 @@ public class UI {
 
         Solution sol = new Solution();
         String s;
-        s = "1122211444";
+        s = "";
         System.out.println(sol.mostRecurringInteger(s));
 
 
