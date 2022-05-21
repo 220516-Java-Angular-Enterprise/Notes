@@ -1,5 +1,7 @@
 package com.revature.dependencyinversion.good;
 
+// Spring indicates that this is a service
+// @Service
 public class HardDrive {
     private String street;
 
