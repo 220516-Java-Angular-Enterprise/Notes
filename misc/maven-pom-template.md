@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.revature</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>your-artifactId</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
