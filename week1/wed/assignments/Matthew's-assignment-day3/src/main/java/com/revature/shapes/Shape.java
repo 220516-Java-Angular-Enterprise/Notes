@@ -12,4 +12,7 @@ public abstract class Shape {
         return value;
 
     }
+    public void bark(){
+        System.out.println("Bark!");
+    }
 }

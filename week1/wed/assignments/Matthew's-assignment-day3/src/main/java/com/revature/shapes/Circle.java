@@ -4,6 +4,9 @@ import java.lang.Math;
 public class Circle extends Shape {
     private double radius;
 
+    public Circle(){
+    }
+
     public Circle(double radius) {
         this.radius = radius;
     }
@@ -24,6 +27,11 @@ public class Circle extends Shape {
     @Override
     public double calculateCircumference() {
         return truncate(2.0*Math.PI*radius);
+    }
+
+    @Override
+    public void bark(){
+        System.out.println("Meow");
     }
 
 }
