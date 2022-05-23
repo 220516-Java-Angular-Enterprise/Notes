@@ -1,4 +1,4 @@
-package java.com.revature.shapes;
+package java.com.revature.WKMshapes;
 import java.lang.Math;
 public class Circle extends Shape{
     private double radius;
@@ -19,12 +19,12 @@ public class Circle extends Shape{
     }
     //implementing methods required by Shape inheritance.
     @Override
-    protected double calculateArea() {
+    public double calculateArea() {
         return Math.pow(this.radius, 2)*Math.PI;
     }
 
     @Override
-    protected double calculateCircumference() {
+    public double calculateCircumference() {
         return 2*this.radius*Math.PI;
     }
 

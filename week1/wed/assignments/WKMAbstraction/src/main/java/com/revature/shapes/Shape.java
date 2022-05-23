@@ -1,4 +1,4 @@
-package java.com.revature.shapes;
+package java.com.revature.WKMshapes;
 
 public abstract class Shape {
 
@@ -11,3 +11,4 @@ public abstract class Shape {
     //shapes have a method to calculate perimeter
     protected abstract double calculateCircumference();
 }
+

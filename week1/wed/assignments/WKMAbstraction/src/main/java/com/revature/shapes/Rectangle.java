@@ -1,8 +1,8 @@
-package java.com.revature.shapes;
+package java.com.revature.WKMshapes;
 
-public class Rectangle extends Shape{
-    private double height;
-    private double width;
+public class Rectangle extends Shape {
+    protected double height;
+    protected double width;
 
     public Rectangle (double h, double w){
         this.height=h;

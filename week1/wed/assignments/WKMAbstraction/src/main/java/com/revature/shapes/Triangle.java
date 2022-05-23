@@ -1,4 +1,4 @@
-package java.com.revature.shapes;
+package java.com.revature.WKMshapes;
 
 public class Triangle extends Shape{
     private double height;
@@ -7,6 +7,7 @@ public class Triangle extends Shape{
     private double base;
 
     public Triangle (double h, double b){
+        //Better code would try/catch to make sure that height is not 0 or negative...
         this.height=h;
         this.base=b;
     }
@@ -28,12 +29,12 @@ public class Triangle extends Shape{
     }
 
     @Override
-    protected double calculateArea() {
+    public double calculateArea() {
         return (this.base*this.height)/2;
     }
 
     @Override
-    protected double calculateCircumference() {
+    public double calculateCircumference() {
         return 3*this.base;
     }
 }
