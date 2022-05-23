@@ -10,7 +10,7 @@ public rectangle(){}
     public rectangle(double height, double width){
 
     this.height=height;
-    this.height=width;
+    this.width=width;
     }
 
     public double getWidth() {
@@ -29,11 +29,11 @@ public rectangle(){}
 
     @Override
     protected double calculateArea() {
-        return (getWidth()*getHeight());
+        return (width*height);
     }
 
     @Override
     protected double calculateCircumference() {
-        return 2*(getWidth()+getHeight());
+        return 2*(width+height);
     }
 }

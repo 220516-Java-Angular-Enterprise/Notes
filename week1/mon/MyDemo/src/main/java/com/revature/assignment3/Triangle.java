@@ -25,12 +25,12 @@ private double height;
     }
     @Override
     protected double calculateArea() {
-        return (getHeight()*getBase())/2;
+        return (height*base)/2;
     }
 
     @Override
     protected double calculateCircumference() {
-        return 3*getBase();
+        return 3*base;
     }
 
     /* Rectangle now have access to Shape's methods because it's a child of Shape. */

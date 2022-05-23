@@ -10,7 +10,7 @@ public class Dog {
 
     public Dog() {
 
-    }
+    }//It means that there's nothing to execute in this Constructor. Usually Java provides this by default. (default constructor.)
 
     public Dog(String name, String breed, int age, char gender, char size) {
         this.name = name;
@@ -20,9 +20,7 @@ public class Dog {
         this.size = size;
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
     public void setName(String name) {
         this.name = name;

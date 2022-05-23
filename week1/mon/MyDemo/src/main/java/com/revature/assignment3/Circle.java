@@ -1,5 +1,7 @@
 package com.revature.assignment3;
 
+import java.text.DecimalFormat;
+
 public class Circle extends Shape {
     private double radius;
 public Circle(){}
@@ -17,11 +19,12 @@ public Circle(){}
 
     @Override
     protected double calculateArea() {
-        return Math.pow(getRadius(),2)*Math.PI;
+        return Math.pow(radius,2)*Math.PI;
     }
 
     @Override
+
     protected double calculateCircumference() {
-        return (2*getRadius())*Math.PI;
+        return (2*radius)*Math.PI;
     }
 }
