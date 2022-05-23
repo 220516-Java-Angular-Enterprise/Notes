@@ -12,7 +12,6 @@ public class Solution {
         int maxInt; int curInt = 0; int maxRec = 1; int curRec = 1;
         if (s.length() == 0) return 0;
 
-
             maxInt = Integer.parseInt(String.valueOf(s.charAt(0)));
             for (int i = 1; i < s.length(); i++) {
                 curInt = Integer.parseInt(String.valueOf(s.charAt(i)));
