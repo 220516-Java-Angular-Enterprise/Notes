@@ -1,5 +1,7 @@
 # Connection Class
 
+<br>
+
 ```java
 package com.revature.restaurant.connection;
 
