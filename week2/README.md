@@ -1,6 +1,6 @@
 # Agendas
 
-## Wednesday
+## Thursday
 
 - **10:15 am ET**
     - Hackerrank coding practice
