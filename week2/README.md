@@ -38,7 +38,6 @@
     - Why are we using it in P0?
 
 
-<<<<<<< HEAD
 - **P0 requirements**:
     - User login/signup should be done at this point
     - Your P0 should be connected to your database
@@ -69,8 +68,3 @@
 
 - **P0 requirements:**
   - Start testing your services. (DO NOT TEST UI)
-=======
-- **P0 requirements**: 
-  - User login/signup should be done at this point
-  - Your P0 should be connected to your database
->>>>>>> 5975addc047160a65e1fead50027814262196a62
