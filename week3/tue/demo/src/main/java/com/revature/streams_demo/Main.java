@@ -19,14 +19,20 @@ public class Main {
         /* FILTER */
         /* Allows us to filter out all employees who are male. */
         System.out.println("\nFILTER:");
+        List<Employee> maleEmployees = employees.stream().filter(e -> e.getAge() < 30).collect(Collectors.toList());
+        maleEmployees.forEach(System.out::println);
 
         /* SORT */
         /* Allows us to sort Employee based on selected attribute. */
         System.out.println("\nSORT:");
+        List<Employee> sortByAge = employees.stream().sorted(Comparator.comparing(Employee::getAge)).collect(Collectors.toList());
+        sortByAge.forEach(System.out::println);
 
         /* MAP */
         /* Allows us to return the result after modifying it with map. */
         System.out.println("\nMAP:");
+        List<String> fullNames = employees.stream().map(e -> e.getFirstname()+" "+e.getLastname()).collect(Collectors.toList());
+        fullNames.forEach(System.out::println);
     }
 
     private static List<Employee> addEmployee() {

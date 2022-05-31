@@ -14,9 +14,8 @@ public class Main {
          * In case of lambda expression, we don't need to define the method again for providing the implementation.
          */
 
-        Action action = (a, b) -> {
-            return a + b;
-        };
+        Action action = (a, b) -> { return a + b; };
+        //only need to point f'n operands to the f'n body
 
         System.out.println(action.add(1, 2));
     }
