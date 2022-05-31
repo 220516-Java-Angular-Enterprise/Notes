@@ -4,5 +4,5 @@ package com.revature.lambda_demo;
 /* You can only use lambda expression on FunctionalInterface. */
 @FunctionalInterface
 public interface Action {
-    int add(int a, int b);
+    void speak();
 }
