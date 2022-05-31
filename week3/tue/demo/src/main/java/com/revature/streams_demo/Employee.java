@@ -4,9 +4,7 @@ public class Employee {
     private String id;
     private String firstname;
     private String lastname;
-
     private int age;
-
     private Gender gender;
 
     public Employee() {
