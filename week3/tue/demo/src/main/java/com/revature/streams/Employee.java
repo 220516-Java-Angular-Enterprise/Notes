@@ -1,12 +1,10 @@
-package com.revature.streams_demo;
+package com.revature.streams;
 
 public class Employee {
     private String id;
     private String firstname;
     private String lastname;
-
     private int age;
-
     private Gender gender;
 
     public Employee() {

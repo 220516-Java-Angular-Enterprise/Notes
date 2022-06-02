@@ -1,4 +1,4 @@
-package com.revature.lambda_demo;
+package com.revature.lambda_expressions;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class Main {
         Action action = (a, b) -> { return a + b; };
         //only need to point f'n operands to the f'n body
 
-        System.out.println(action.add(1, 2));
+        System.out.print(action.add(5,3));
     }
 }
