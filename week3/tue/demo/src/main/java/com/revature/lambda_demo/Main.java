@@ -14,10 +14,10 @@ public class Main {
          * In case of lambda expression, we don't need to define the method again for providing the implementation.
          */
 
-        Action action = (a, b) -> {
-            return a + b;
+        Action action = () -> {
+            System.out.println("Hello World!");
         };
 
-        System.out.println(action.add(1, 2));
+        action.speak();
     }
 }
