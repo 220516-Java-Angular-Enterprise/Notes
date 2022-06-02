@@ -54,7 +54,12 @@
 
 - 12:00 pm ET
   - Team building exercise
-    - Build a console based software (ANYTHING YOU WANT!)
+    - Build a console based application (ANYTHING YOU WANT!)
+      - **Requirements:**
+        - Must use model, dao, service design pattern
+        - Must persist to db
+        - Table needs to be in 3NF
+        - BE CREATIVE!
 
 
 - 2:00 pm ET
@@ -64,6 +69,6 @@
 - 3:00 pm ET
   - Present your project
 
-### Homework:
+### **Homework:**
 - Be ready for P1 introduction
 - Why use Reflection API (purpose?)
