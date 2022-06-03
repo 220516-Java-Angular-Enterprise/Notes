@@ -72,3 +72,29 @@
 ### **Homework:**
 - Be ready for P1 introduction
 - Why use Reflection API (purpose?)
+
+<br>
+
+## Friday
+
+- 10:30 am ET
+  - Coding challenges
+
+
+- 11:30 am ET
+  - Present team building project
+
+
+- 12:00 pm ET
+  - Lecture:
+    - HTTP
+    - Setting up Tomcat
+
+
+- 2:00 pm ET
+  - Lunch
+
+
+### **Homework:**
+- Understand HTTP and it's action verbs
+- Have Tomcat setup for Monday
