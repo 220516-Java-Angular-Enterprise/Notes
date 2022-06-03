@@ -19,6 +19,7 @@ public class Main {
         /* With Reflection, I can access objects information i.e. fields, constructors, and methods. */
         Hero myHero = new Hero("Com sigh", "120 wpm", Gender.FEMALE, "O(n!)");
         Example ex = new Example();
+
         Class<? extends Hero> heroClass = myHero.getClass();
         Class<? extends Example> exClass = ex.getClass();
         System.out.println("Class name: " + heroClass.getName());
@@ -26,6 +27,7 @@ public class Main {
         /* Reflection allows me to access all regardless if it is private in a class. */
         Field[] fields = heroClass.getDeclaredFields();
         Field[] exFields = exClass.getDeclaredFields();
+
         System.out.println("\nHero class:");
         for (Field f : fields) System.out.println(f.getName());
 
@@ -35,6 +37,7 @@ public class Main {
         /* Reflection allows me to access constructors as well. */
         System.out.println();
         Constructor[] constructors = heroClass.getConstructors();
+
         for (Constructor c : constructors) {
             if (c.getParameterCount() == 0) {
                 System.out.println("no arg-constructor");
@@ -47,7 +50,9 @@ public class Main {
             }
         }
 
+        System.out.println("\nClass method:");
         Method[] methods = heroClass.getMethods();
+
         for (Method m : methods) System.out.println(m.getName());
     }
 }
