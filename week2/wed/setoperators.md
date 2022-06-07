@@ -5,13 +5,13 @@
 The SQL `UNION` clause/operator is used to combine the results of two or more 
 `SELECT` statements without returning any duplicate rows.
 
-To use this `UNION` clause, each `SELECT` statement must have
+To use this `UNION` clause, each `SELECT` statement must have:
 
-The same number of columns selected
-The same number of column expressions
-The same data type and
-Have them in the same order
-But they need not have to be in the same length.
+* The same number of columns selected
+* The same number of column expressions
+* The same data type and
+* Have them in the same order
+* But they need not have to be in the same length.
 
 ### Example
 Consider the following two tables.
