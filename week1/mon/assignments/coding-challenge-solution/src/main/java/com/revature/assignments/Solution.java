@@ -1,5 +1,8 @@
 package com.revature.assignments;
 
+import java.awt.*;
+import java.util.Arrays;
+
 public class Solution {
 
     public int easy(int a, int b) {
@@ -17,4 +20,5 @@ public class Solution {
 
         return s;
     }
+
 }
