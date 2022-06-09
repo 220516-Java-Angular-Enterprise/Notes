@@ -61,4 +61,36 @@
   - EC2?
   - Elastic Beanstalk
   - S3 Bucket?
+  
+<br>
+
+## Thursday
+
+<br>
+
+- 10:30 am ET
+  - Hackerrank
+
+
+- 11:30 am ET
+  - Lecture:
+    - JWT
+
+
+- 1:00 or 2:00 pm ET (depending on time)
+  - Lunch
+
+
+- 3:00 pm ET
+  - 1 on 1s for week 2-3
+  - Work on P1
+
+### Homework
+
+- What is CI/CD?
+- What is Jenkins?
+  - Why are we using it?
+- JWT?
+  - Why use token authentication?
+
 
