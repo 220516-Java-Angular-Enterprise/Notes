@@ -1,4 +1,4 @@
-package java.com.revature.WKMshapes;
+package com.revature.shapes;
 
 public class Rectangle extends Shape {
     protected double height;

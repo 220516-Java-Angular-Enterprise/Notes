@@ -1,4 +1,4 @@
-package java.com.revature.WKMshapes;
+package com.revature.shapes;
 
 public abstract class Shape {
 

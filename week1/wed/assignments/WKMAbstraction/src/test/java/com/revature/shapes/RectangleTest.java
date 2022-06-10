@@ -1,8 +1,6 @@
-package java.com.revature.shapesTest;
+package com.revature.shapes;
 
 import org.junit.jupiter.api.Test;
-
-import java.com.revature.shapes.Rectangle;
 
 class RectangleTest {
     Rectangle[] rectArr = {

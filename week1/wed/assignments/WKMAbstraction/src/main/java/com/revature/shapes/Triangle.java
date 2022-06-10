@@ -1,4 +1,4 @@
-package java.com.revature.WKMshapes;
+package com.revature.shapes;
 
 public class Triangle extends Shape{
     private double height;

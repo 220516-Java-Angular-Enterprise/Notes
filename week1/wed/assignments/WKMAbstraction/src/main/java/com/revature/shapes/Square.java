@@ -1,4 +1,4 @@
-package com.revature.WKMshapes;
+package com.revature.shapes;
 
 public class Square extends Rectangle {
     private double length;

@@ -1,4 +1,4 @@
-package java.com.revature.shapesTest;
+package com.revature.shapes;
 
 import org.junit.jupiter.api.Test;
 

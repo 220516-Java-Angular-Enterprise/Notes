@@ -1,4 +1,6 @@
-package main.java.com.revature.Rectangle;
+package java.com.revature.Rectangle;
+
+
 
 public class Rectangle {
     private String name;
