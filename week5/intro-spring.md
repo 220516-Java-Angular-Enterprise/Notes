@@ -1,4 +1,4 @@
-Spring Framework
+# Spring Framework
 ---
 The Spring Framework is an application framework and inversion of control container for the Java platform. One of the core functions of the Spring Framework is _**dependency injection**_, which is accomplished through the use of a _**inversion of control**_ container, known as the `ApplicationContext`.  The framework integrates with other specifications, namely:
 
