@@ -64,6 +64,8 @@ Agendas
 
 ## Wednesday
 
+<br>
+
 - 10:00 am ET
   - P1 presentation
 
@@ -75,6 +77,8 @@ Agendas
 <br>
 
 ## Thursday
+
+<br>
 
 - 10:15 AM ET
   - Leetcode
