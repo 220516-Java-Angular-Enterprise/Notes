@@ -1,0 +1,3 @@
+com/revature/spring_mvc/web/dtos/requests/NewUserRequest.class
+com/revature/spring_mvc/config/AppConfig.class
+com/revature/spring_mvc/web/controllers/TestController.class
