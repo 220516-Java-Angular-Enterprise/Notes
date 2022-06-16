@@ -58,3 +58,43 @@ Agendas
   - What is Spring Bean?
   - Spring: Bean lifecycle?
   - Difference between Servlets and Spring?
+
+
+<br>
+
+## Wednesday
+
+- 10:00 am ET
+  - P1 presentation
+
+
+- 2:00 pm et
+  - Meet with Ben
+
+
+<br>
+
+## Thursday
+
+- 10:15 AM ET
+  - Leetcode
+
+
+- 11:30 PM ET
+  - Lecture:
+    - Convert Yolp into Spring API
+
+
+- 1:00 PM ET
+  - Lunch
+
+
+- 2:00 PM ET
+  - Meet with Fidelity
+
+
+### Homework:
+- What is Spring MVC
+  - Annotation vs XML?
+- What is Spring AOP:
+  - Why do we use it?
