@@ -4,7 +4,7 @@
 
 
 # Java
-### 1. [JDK, JRE, JVM](#JDK,-JRE,-JVM)
+### 1. [JDK, JRE, JVM](#JDK-JRE-JVM)
 
 
 # Object Oriented Programming
